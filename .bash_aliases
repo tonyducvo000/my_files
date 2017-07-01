@@ -77,9 +77,12 @@ show_pack(){
 
 alias apt-shw=show_pack
 
+#test
+clean_find(){
+	find $1 -name $2 2> /dev/null
+}
 
-
-
+alias cfind=clean_find
 
 
 
